@@ -6,7 +6,7 @@ const Navbar = () => {
         setIsOpen(!isOpen);
     };  
   return (  
-    <nav className="w-screen mt-4  py-3 px-4 flex flex-col justify-between items-center bg-gray-950">
+    <nav className="w-screen mt-4  py-3 px-4 flex flex-col justify-between items-center bg-gradient-to-r from-[#262324] to-[#262324] ">
       <div className="flex justify-between w-screen px-3">
           <h1 className="text-white text-3xl">Evoke</h1>
           <div onClick={toggleMenu} className="space-y-2 cursor-pointer flex flex-col justify-center items-center sm:hidden">

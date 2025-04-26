@@ -1,6 +1,6 @@
 
 import './App.css'
-import Navbar from './components/Navbar'
+import LandingPage from './LandingPage'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className='flex flex-col h-screen w-full'>
-        <Navbar />
+        <LandingPage />
       </div>
     </>
   )
